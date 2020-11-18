@@ -77,14 +77,18 @@ class Indexes():
         return self.indexes[query[0]]
 
     def find_matching_ids_for_all_query_words(self, id_lists, query_qtd):
+        """
+        Receive a list all productId's that had index association with a multiquery search, and the query size
+        Returns a list of only the id's that all the query's have in commom. Using Python collections/Couter to represent a multiset
+        """
         c = Counter(id_lists)
-        res = [k for k, v in c.items() if v > query_qtd - 1]
+        commom_ids = [k for k, v in c.items() if v > query_qtd - 1]
         
-        return res
+        return commom_ids
 
     def sanitize_product_name(self, name):
         """
-        This will remove the difference of querys like "iphone" and "iphone,"
+        Remove the difference of querys like "iphone" and "iphone,"
         """
         name = re.sub(r'(\w+),\s', r'\1 ', name)
         
