@@ -19,11 +19,12 @@ After this, the indexes creation process will begin (it takes about 1 sec for th
 
 - Single Query Search
 
-![singlequery](https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/singlequery.png?token=AFFPYAYVMFI5VE2JVYCVTNC7YKWKE)
+<img src="https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/singlequery.png?token=AFFPYAYVMFI5VE2JVYCVTNC7YKWKE" width="400">
 
 - Multi Query Search
 
-![multiquery](https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/multiquery.png?token=AFFPYA2IJJDE23F2TDLQXH27YKWLU)
+<img src="https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/multiquery.png?token=AFFPYA2IJJDE23F2TDLQXH27YKWLU" width="400">
+
 
 Obs: To run Python3 in some Linux distros, like Ubuntu, use `python3`
 
