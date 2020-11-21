@@ -5,8 +5,8 @@ For this solution I rely on the creation of two data structure that will represe
 Catalog: 
 ```json
 {
-    productId: {
-        "name": productName
+    "productId": {
+        "name": "productName"
     }
 }
 ```
@@ -14,7 +14,7 @@ Catalog:
 Indexes:
 ```json
 {
-    uniqueTermInCatalog: [productId, productId, productId...]
+    "uniqueTermInCatalog": ["productId", "productId", "productId" ...]
 }
 ```
 
