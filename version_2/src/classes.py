@@ -19,7 +19,7 @@ class DataBase():
     def create_table(self):
          self.cur.execute(""" 
             CREATE TABLE IF NOT EXISTS Products (
-            Id varchar(255),
+            Id varchar(255) UNIQUE,
             name varchar
         );
         """)
@@ -28,7 +28,7 @@ class DataBase():
         """
         Using execute.batch to reduce the number of roundtrips to the db 
         """
-        psycopg2.extras.execute_batch(self.cur ,"INSERT INTO Products(id, name) VALUES (%s, %s)", batch)
+        psycopg2.extras.execute_batch(self.cur ,"INSERT INTO Products(id, name) VALUES (%s, %s) ON CONFLICT DO NOTHING", batch)
 
     def create_index(self):
         self.cur.execute(""" 
