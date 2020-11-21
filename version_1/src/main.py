@@ -18,15 +18,18 @@ def search(indexes, catalog):
     while True:
         query = input("Make a search:")
         
-        if query != None:
+        if query == "exit":
+            break
+        elif query != None:
             try:
+                print("---- Here are your results ----")
                 max_return = 0
                 produts = indexes.query_index(query.casefold().split())
                 for id in  sorted(produts):
                     if max_return == 20:
                         break
     
-                    print("productId: {} - name: {}".format(id, catalog.get_product_name(id)))
+                    print("productId: {} - Name: {}".format(id, catalog.get_product_name(id)))
                     max_return += 1
             except:
                 print("No products found for this search")
