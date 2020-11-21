@@ -82,7 +82,7 @@ class Indexes():
         Returns a list of only the id's that all the query's have in commom. Using Python collections/Couter to represent a multiset
         """
         c = Counter(id_lists)
-        commom_ids = [k for k, v in c.items() if v > query_qtd - 1]
+        commom_ids = [k for k, v in c.items() if v == query_qtd]
         
         return commom_ids
 
