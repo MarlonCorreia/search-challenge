@@ -18,7 +18,6 @@ def search(indexes, catalog):
     while True:
         query = input("Make a search:")
         
-        
         if query != None:
             try:
                 max_return = 0
