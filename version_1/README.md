@@ -19,11 +19,15 @@ After this, the indexes creation process will begin (it takes about 1 sec for th
 
 - Single Query Search
 
-<img src="https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/singlequery.png?token=AFFPYAYVMFI5VE2JVYCVTNC7YKWKE" width="400">
+Returns the first 20 produtcs that has the inputed query in it's name
+
+<img src="https://i.imgur.com/BbRF0rD.png" width="600">
 
 - Multi Query Search
 
-<img src="https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/multiquery.png?token=AFFPYA2IJJDE23F2TDLQXH27YKWLU" width="400">
+Returns the first 20 produtcs that has all the inputed words somewhere in it's name
+
+<img src="https://i.imgur.com/On94Dv3.png" width="600">
 
 
 Obs: To run Python3 in some Linux distros, like Ubuntu, use `python3`
