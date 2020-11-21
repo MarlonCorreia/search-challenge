@@ -4,15 +4,15 @@ This is my solutions for the search challenge.
 
 ## Why two solutions? 
 
-While looking at the specifications of the challenge, two really important knowledges came into my mind, **Data Structures** and **DataBase**. And I wanted to develop a little bit of both in this challenge. As the challenge description didn't specify the use of any techlonogies I felt it was a little bit of cheating using only `PostgreSQL`, since it has indexes and multi text search functions built in. So here are the differences:
+While looking at the specifications of the challenge, two really important knowledges came into my mind, **Data Structures** and **DataBase**. And I wanted to developed a little bit of both in this challenge. As the description didn't specify the use of any techlonogies I felt it was a little bit of cheating using only `PostgreSQL`, since it has indexes and multi text search functions built in. So here are the differences:
 
-- [Version_1](/version_1)- In memory Solution 
+- [Version_1](/version_1)- **In memory Solution** 
 
-This versions has a focus on the use of clever data Structures that minimize loops when searching. In this solution I creating my version of a simple index systems with single and multiquery search. Since this uses an in memory solution I think it could never be a production version of search engine. 
+This versions has a focus on the use of clever data Structures that minimize loops when searching. In this solution I create my version of a simple index systems with single and multiquery search. Since this uses an in memory solution I think it could never be a production version of search engine. 
 
-- [Version_2](/version_2) - PostgreSQL Solution 
+- [Version_2](/version_2) - **PostgreSQL Solution** 
 
-This version I decided to focus on the technologies that would actually find it's way to production in an actual search engine. I'm using postgreSQL with it's already weel develop and mature index and search systems. 
+This version I decided to focus on the technologies that would actually find it's way to production in an actual search engine. I'm using postgreSQL with it's already well developed and mature index and search systems. 
 
 
 ## The Problem 
