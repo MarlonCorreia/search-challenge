@@ -25,6 +25,7 @@ def search(indexes, catalog):
                 print("---- Here are your results ----")
                 max_return = 0
                 produts = indexes.query_index(query.casefold().split())
+                
                 for id in  sorted(produts):
                     if max_return == 20:
                         break
