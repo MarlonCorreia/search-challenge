@@ -1,5 +1,30 @@
 ## In memory Solution
 
+For this solution I rely on the creation of two data structure that will represent my catalog of produtos, and the indexes for facilitating the search in this catalog.  
+
+Catalog: 
+```json
+{
+    productId: {
+        "name": productName
+    }
+}
+```
+
+Indexes:
+```json
+{
+    uniqueTermInCatalog: [productId, productId, productId...]
+}
+```
+
+This index structure facilitate the search process because I can simply try to retrive all the products that has an specific term in it's name by calling the position in the dict: 
+
+```python
+dict[query] eg: dict['iphone']
+```
+
+For the multi query search, I create a list of all the products returning for all the calls in the dict. And then return to the user only the productId's that repeated `{query_size}` times. 
 
 ## Requirements
 
