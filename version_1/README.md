@@ -14,7 +14,7 @@ Catalog:
 Indexes:
 ```json
 {
-    "uniqueTermInCatalog": ["productId", "productId", "productId" ...]
+    "uniqueTermInCatalog": ["productId", "productId", "productId", "..."]
 }
 ```
 
