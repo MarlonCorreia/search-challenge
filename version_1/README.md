@@ -14,15 +14,18 @@ To run this solution, call
 ```bash
 $ python src/main.py
 ```
+After this, the indexes creation process will begin (it takes about 1 sec for this amount of products) and you will prompt to make a search, eg:
+ 
+
+- Single Query Search
+
+![singlequery](https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/singlequery.png?token=AFFPYAYVMFI5VE2JVYCVTNC7YKWKE)
+
+- Multi Query Search
+
+![multiquery](https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/multiquery.png?token=AFFPYA2IJJDE23F2TDLQXH27YKWLU)
 
 Obs: To run Python3 in some Linux distros, like Ubuntu, use `python3`
-
-![alt text](https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/singlequery.png?token=AFFPYAYVMFI5VE2JVYCVTNC7YKWKE)
-
-2222
-
-![alt text](https://raw.githubusercontent.com/MarlonCorreia/search-readme/main/multiquery.png?token=AFFPYA2IJJDE23F2TDLQXH27YKWLU)
-
 
 ## Tests 
 
