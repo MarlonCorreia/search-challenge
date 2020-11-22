@@ -1,6 +1,6 @@
 ## In memory Solution
 
-For this solution I rely on the creation of two data structure that will represent my catalog of produtos, and the indexes for facilitating the search in this catalog.  
+For this solution I rely on the creation of two data structure that will represent my catalog of products, and the indexes for facilitating the search in this catalog.  
 
 Catalog: 
 ```json
@@ -18,7 +18,7 @@ Indexes:
 }
 ```
 
-This index structure facilitate the search process because I can simply try to retrive all the products that has an specific term in it's name by calling the position in the dict: 
+This index structure facilitate the search process because I can simply try to retrieve all the products that has a specific term in it's name by calling the position in the dict: 
 
 ```python
 dict[query] eg: dict['iphone']
@@ -28,7 +28,7 @@ For the multi query search, I create a list of all the products returning for al
 
 ## Requirements
 
-For this solution, I only used standard Python lib's, so Python It's only thing you'll need:
+For this solution, I only used standard Python lib's, so Python It's the only thing you'll need:
 
 - Python 3.8.X
 
@@ -44,13 +44,13 @@ After this, the indexes creation process will begin (it takes about 1 sec for th
 
 - Single Query Search
 
-Returns the first 20 produtcs that has the inputed query in it's name
+Returns the first 20 products that has the inputted query in it's name
 
 <img src="https://i.imgur.com/yZFARAZ.png" width="600">
 
 - Multi Query Search
 
-Returns the first 20 produtcs that has all the inputed words somewhere in it's name
+Returns the first 20 products that has all the inputted words somewhere in it's name
 
 <img src="https://i.imgur.com/NNn77Dj.png" width="600">
 
