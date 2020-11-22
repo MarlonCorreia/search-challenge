@@ -55,12 +55,14 @@ Returns the first 20 products that has all the inputted words somewhere in it's 
 <img src="https://i.imgur.com/NNn77Dj.png" width="600">
 
 
-Obs: To run Python3 in some Linux distros, like Ubuntu, use `python3`
-
 ## Tests 
 
 To run the tests use:
 
 ```bash
-$ python -m unittest  
+$ python -m unittest 
 ```
+
+## Observation
+
+For some linux distros, like Ubuntu, use **python3** command.
