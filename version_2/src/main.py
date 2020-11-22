@@ -32,8 +32,10 @@ def search():
                 result = db.query_db(query)
                 print("------ here are your results ------")
 
+                position = 1
                 for product in result:
-                    print("productId: {} - Name: {}".format(product[0], product[1]))
+                    print("{} - {} - {}".format(position, product[0], product[1]))
+                    position += 1
             except:
                 print("No products Found")
             
