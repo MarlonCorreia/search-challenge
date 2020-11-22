@@ -4,7 +4,7 @@ This is my solutions for the search challenge.
 
 ## Why two solutions? 
 
-While looking at the specifications of the challenge, two really important knowledges came into my mind, **Data Structures** and **DataBase**. And I wanted to developed a little bit of both in this challenge. As the description didn't specify the use of any techlonogies I felt it was a little bit of cheating using only `PostgreSQL`, since it has indexes and multi text search functions built in. So here are the differences:
+While looking at the specifications of the challenge, two really important knowledge came into my mind, **Data Structures** and **DataBase**. And I wanted to develop a little bit of both in this challenge. As the description didn't specify the use of any technologies I felt it was a little bit of cheating using only `PostgreSQL`, since it has indexes and multi text search functions built in. So here are the differences:
 
 - [Version_1](/version_1)- **In memory Solution** 
 
