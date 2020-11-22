@@ -33,8 +33,8 @@ def search():
                 print("------ here are your results ------")
 
                 position = 1
-                for product in result:
-                    print("{} - {} - {}".format(position, product[0], product[1]))
+                for id, name in result:
+                    print("{} - {} - {}".format(position, id, name))
                     position += 1
             except:
                 print("No products Found")
