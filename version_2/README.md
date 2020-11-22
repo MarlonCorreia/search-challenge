@@ -54,7 +54,7 @@ Returns the first 20 produtcs that has all the inputed words somewhere in it's n
 
 ## Performance 
 
-I want to address something about this solution. I'm hosting my PostgreSQL in the free tier of a service call [ElephantSQL](https://www.elephantsql.com/). And this is way it feels a little bit slow, while testing with local postgreSQL or a docker image, it was actually faster than the In Memory Version (version_1). 
+I want to address something about this solution. I'm hosting my PostgreSQL in the free tier of a service called [ElephantSQL](https://www.elephantsql.com/). And this is way it feels a little bit slow, while testing with local postgreSQL or a docker image, it was actually faster than the In Memory Version (version_1). 
 
 My decision of hosting the postgreSQL in this service it's based on two things: avoid unecessary complicated step for the person who'll test this (local psql configuration) and the fact that this service isn't appropriate for a docker, in my opinion. 
 
@@ -63,9 +63,10 @@ My decision of hosting the postgreSQL in this service it's based on two things: 
 To run the tests:
 
 ```bash
-$  python -m unittest                                                                                                                 
+$  python -m unittest
 ```
 
+## Observation
 
-Obs: For some distros, like Ubuntu, use **python3** and **pip3** commands.
+For some linux distros, like Ubuntu, use **python3** and **pip3** commands.
 
