@@ -30,7 +30,7 @@ def search(indexes, catalog):
                     if max_return == 20:
                         break
     
-                    print("productId: {} - Name: {}".format(id, catalog.get_product_name(id)))
+                    print("{} - {} - {}".format(max_return +1, id, catalog.get_product_name(id)))
                     max_return += 1
             except:
                 print("No products found for this search")
