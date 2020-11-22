@@ -46,13 +46,13 @@ After this, the indexes creation process will begin (it takes about 1 sec for th
 
 Returns the first 20 produtcs that has the inputed query in it's name
 
-<img src="https://i.imgur.com/BbRF0rD.png" width="600">
+<img src="https://i.imgur.com/yZFARAZ.png" width="600">
 
 - Multi Query Search
 
 Returns the first 20 produtcs that has all the inputed words somewhere in it's name
 
-<img src="https://i.imgur.com/On94Dv3.png" width="600">
+<img src="https://i.imgur.com/NNn77Dj.png" width="600">
 
 
 Obs: To run Python3 in some Linux distros, like Ubuntu, use `python3`
