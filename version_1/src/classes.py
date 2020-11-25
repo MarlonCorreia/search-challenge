@@ -51,14 +51,9 @@ class Indexes():
         
         for word in sanitized_name.split():
             try:
-                lista = self.indexes[word]
-                if id in lista:
-                    continue
-
-                lista.append(id)
-                self.indexes[word] = lista
+                self.indexes[word].add(id)
             except:
-                self.indexes[word] = [id] 
+                self.indexes[word] = {id}
 
         return
     
