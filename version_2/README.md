@@ -1,4 +1,4 @@
-#Update: The PostgreSQL db that this solution was using was terminated =] 
+### Update: The PostgreSQL instance that this solution was using was terminated =] 
 
 ## PostgreSQL Solution
 
