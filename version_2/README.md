@@ -1,3 +1,5 @@
+#Update: The PostgreSQL db that this solution was using was terminated =] 
+
 ## PostgreSQL Solution
 
 For this solution, I've strongly used PostgreSQL. Just creating a table to add all of the products existing in inputted file, and then creating an Index using the name of the products.  
